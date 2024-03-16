@@ -1,0 +1,32 @@
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+    width: 100%;
+  }
+  .color-error{
+    color: red;
+    font-size: 12px;
+  }
+  .disabled-button {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  .button{
+    text-align: center;
+  }
